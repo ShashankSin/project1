@@ -1,0 +1,27 @@
+<!-- nav starts -->
+	<nav>
+		<div class="center clearfix">
+			<div class="logo-nav">
+				<a href="#" class="logo">
+					<img src="images/letter.png">
+				</a>
+				<div class="slide-nav">
+					<a href="#" class="right">
+						<div class="arrowone">
+						</div>
+					</a>
+					<a href="#" class="left">
+						<div class="arrowtwo">
+						</div>
+					</a>
+				</div>
+			</div>
+			<ul>
+				<li><a href="#" class="home">Home.</a></li>
+				<li><a href="#" target="_blank">Import. Purchase</a></li>
+				<li><a href="#" target="_blank">Export. Sale</a></li>
+				<li><a href="#" target="_blank">Feedback.</a></li>
+			</ul>
+		</div>
+	</nav>
+<!-- nav ends -->

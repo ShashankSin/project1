@@ -1,0 +1,301 @@
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}	
+.test{
+	height: 100px;
+	background: red;
+}
+img {
+	display: block;
+}
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.center{
+	width: 960px;
+	margin: auto;
+	position: relative;
+}
+/*div.banner starts*/
+.banner{
+	border-top: 12px solid #fff200;
+	padding-top: 2px;
+}
+.banner a{
+	float: left;
+	width: 25%;
+	height: 260px;
+	overflow: hidden;
+}
+.banner img{
+	display: block;
+}
+/*div.banner ends*/
+
+/*nav starts*/
+nav .center{
+	background: #cf4c9a;
+}
+.conclusion .center{
+	background: #fff200;
+}
+nav ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.conclusion ul {
+	float: left;
+}
+nav li{
+	margin-right: 20px;
+	float: left;
+	list-style: none;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+}
+.conclusion a{
+	font-weight: 700;
+	color: #000;
+}
+nav li .home{
+	color: #fff200;
+}
+.conclusion .home{
+	color: #ba0a65;
+}
+.conclusion li .home{
+	margin-left: 20px;
+}
+nav a:hover{
+	color: #ba006f;
+}
+.logo-nav{
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+}
+.conclusion .logo-nav{
+	top: 0;
+	right: 0;
+}
+.logo{
+	background: rgba(186,0,111,0.7);
+	float: left;
+	width: 325px;
+	height: 70px;
+}
+.conclusion .logo{
+	background: #fff200;
+	float: right;
+	height: 120px;
+}
+.logo img{
+	margin: 25px 0 0 25px;
+}
+.slide-nav{
+	float: left;
+}
+.slide-nav a{
+	float: left;
+	margin-left: 20px;
+	background: #fff200;
+	padding: 23px;
+	height: 5px;
+	position: relative;
+}
+.right{
+	margin-right: -10px;
+}
+.right:before{
+	content: '';
+	border-right: 10px solid #000;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	top: 16px;
+ 	left: 16px;
+}
+.arrowone:after{
+	content: '';
+	border-right: 10px solid #fff200;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	top: 16px;
+ 	left: 18px;
+}
+.left:before{
+	content: '';
+	border-left: 10px solid #000;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	top: 16px;
+ 	left: 20px;
+}
+.arrowtwo:after{
+	content: '';
+	border-left: 10px solid #fff200;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	top: 16px;
+ 	left: 18px;
+}
+/*nav ends*/
+
+/*main starts*/
+article{
+	float: left;
+}
+h1{
+	width: 606px;
+	border-bottom: 2px solid #dddddd;
+	margin: 0;
+}
+h1 ins{
+	margin-right: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ba006f;
+}
+h1 strong{
+	display: block;
+	font-size: 32px;
+	font-weight: 600;
+	color: #737373;
+	margin: 24px 0 26px 0;
+	line-height: 35px;
+}
+aside{
+	float:left;
+	width: 318px;
+	margin-left: 36px;
+}
+.contact h3{
+	margin:0;
+	font-size: 32px;
+	font-weight: 600;
+	background: #ededed;
+	padding: 20px 0 0 20px;
+	color: #515151;
+	letter-spacing: -2px;
+}
+.contact table{
+	width: 100%;
+	border-collapse: collapse;
+	background: #ededed;
+}
+.contact td{
+	vertical-align: top;
+	font-size: 14px;
+	font-weight: 400;
+	padding:10px 0 10px 20px;
+	line-height: 22px;
+	border-top: 1px solid #d4d4d4;
+}
+.contact ins{
+	color: #c33f85;
+	font-size: 14px;
+	display: block;
+	font-weight: 600;
+}
+.contact a{
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+.contact a:hover{
+	text-decoration: underline;
+}
+.contact tr:nth-child(even) td{
+	background: #f6f6f6;
+} 
+.contact tr:first-child td{
+	border-top: none;
+}
+.contact td:first-child{
+	padding-left: 23px;
+}
+.contact tr:last-child td {
+	padding-bottom: 18px;
+}
+aside .feeback{
+	background: url(../images/feeback.png);
+	display: block;
+	margin-top: 30px;
+	width: 320px;
+	height: 60px;
+}
+/*main ends*/
+
+/*footer starts*/
+footer{
+	background-color: #f2f2f2;
+	padding-bottom: 35px;
+}
+.fdiv{
+	float: left;
+	background: #ffffff;
+	padding: 35px;
+	width: 565px;
+	font-size: 14px;
+}
+.facebook{
+	display: inline-block;
+	float: left;
+	background: #f2f2f2;
+	height: 35px;
+}
+.facebook a{
+}
+.facebook img{
+	float: left;
+}
+.facebook iframe{
+	padding: 8px;
+}
+.halftone{
+	float: left;
+}
+.halftone a{
+	display: inline-block;
+}
+.halftone img{
+}
+.halftone p{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 600;
+	margin:0 0 0 20px;
+	text-align: right;
+}
+.halftone a{
+	display: inline-block;
+}
+.halftone img{
+	float: left;
+	margin-left: 14px;
+}
+.trade {
+	float: left;
+}
+.trade p{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 600;
+	margin: 0 0 0 18px;
+	text-align: left;
+}
+/*footer ends*/
